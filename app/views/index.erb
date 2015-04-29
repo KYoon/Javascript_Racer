@@ -1,0 +1,64 @@
+<h1>Yoonified Racer</h1>
+
+<div id="players-link">
+  <a href="/players">View All Players</a>
+</div>
+
+<div id="login_signup" style="display: block">
+  <p>Returning Players</p>
+  <form id="login" action="/login" method="POST">
+    <input name="player1" type="text" placeholder="Player 1 Name">
+    <input name="player2" type="text" placeholder="Player 2 Name">
+    <p><input name="track_length" type="text" placeholder="Track Length"></p>
+    <input type="submit" value="Login">
+  </form>
+
+  <hr>
+
+  <p>New Players</p>
+  <form id="signup" action="/signup" method="POST">
+    <input name="new_player" type="text" placeholder="New Player Name">
+    <input type="submit" value="Sign Up">
+</form>
+<span class="success"></span>
+</div>
+
+
+
+<!-- The Board -->
+
+<div class="board">
+  <div id="rules">
+  <h2>'w,s,d' moves <span class="player1"></span> (Toad). 'up, down, right' advances <span class="player2"></span> (Mario).</h2>
+  <p>You are playing on a <span id="track-length"></span> space long track.</p>
+  <p>Things to note: There is no double boost. There is no double banana peel. There are some tricks to avoid banana peels and miss speed boosts. And sometimes a banana peel and boost will be on the same space and cancel each other out.</p>
+  </div>
+
+<div id="restart_game_button" style="display: none">
+  <button id="restart-button" type="button" >Restart Game!</button>
+</div>
+
+<br>
+
+
+<table class="racer_table">
+  <tr id="player1_top_strip">
+    <td class="active"></td>
+  </tr>
+  <tr id="player1_bottom_strip">
+  </tr>
+</table>
+<p><span class="player1"></span> has a career of <span id="player1-wins"></span> wins.</p>
+<br>
+<table class="racer_table">
+  <tr id="player2_top_strip">
+    <td class="active" ></td>
+  </tr>
+  <tr id="player2_bottom_strip">
+  </tr>
+</table>
+<p><span class="player2"></span> has a career of <span id="player2-wins"></span> wins.</p>
+
+
+
+</div>

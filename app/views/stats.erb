@@ -1,0 +1,17 @@
+<div id="player-stats">
+  <h1>Player Names and Stats</h1>
+  <a href="/">Return to Login</a>
+  <p></p>
+  <table>
+    <tr>
+      <th>Player</th>
+      <th>Total Career Wins</th>
+    </tr>
+    <% @players.each do |player| %>
+    <tr>
+      <td><%= player.name %></td>
+      <td><%= player.win_count %></td>
+    </tr>
+    <% end %>
+  </table>
+</div>

@@ -1,0 +1,175 @@
+body {
+  background-image: url(http://img1.wikia.nocookie.net/__cb20130729140735/smashbroslawlorigins/images/9/96/Super_Smash_Bros_Lawl_Poster_Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+.board {
+  display: none;
+}
+
+.racer_table td {
+  background-image: url(http://sr.photos3.fotosearch.com/bthumb/CSP/CSP992/k13056215.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+#player1_top_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player1_bottom_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_top_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_bottom_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player1_top_strip td.active {
+  background-image: url(http://fc03.deviantart.net/fs71/f/2012/283/0/7/8_bit_sprites__toad__mario_kart__by_toshirofrog-d5hg79w.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player1_bottom_strip td.active {
+  background-image: url(http://fc03.deviantart.net/fs71/f/2012/283/0/7/8_bit_sprites__toad__mario_kart__by_toshirofrog-d5hg79w.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_top_strip td.active {
+  background-image: url(https://thepixelartproject.files.wordpress.com/2011/12/mario-kart_pa.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_bottom_strip td.active {
+  background-image: url(https://thepixelartproject.files.wordpress.com/2011/12/mario-kart_pa.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Banana Peel */
+
+#player1_top_strip td.banana {
+  background-image: url(http://ih3.redbubble.net/image.13504391.1984/sticker,375x360.u5.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player1_bottom_strip td.banana {
+  background-image: url(http://ih3.redbubble.net/image.13504391.1984/sticker,375x360.u5.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_top_strip td.banana {
+  background-image: url(http://ih3.redbubble.net/image.13504391.1984/sticker,375x360.u5.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_bottom_strip td.banana {
+  background-image: url(http://ih3.redbubble.net/image.13504391.1984/sticker,375x360.u5.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Speed Boost */
+
+#player1_top_strip td.boost {
+  background-image: url(http://publicdomainvectors.org/photos/pitr_green_double_arrows_set_1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player1_bottom_strip td.boost {
+  background-image: url(http://publicdomainvectors.org/photos/pitr_green_double_arrows_set_1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_top_strip td.boost {
+  background-image: url(http://publicdomainvectors.org/photos/pitr_green_double_arrows_set_1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#player2_bottom_strip td.boost {
+  background-image: url(http://publicdomainvectors.org/photos/pitr_green_double_arrows_set_1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#login_signup {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#rules {
+  text-align: center;
+}
+
+.board {
+  text-align: center;
+}
+
+#players-link {
+  text-align: center
+}
+
+/* Stats page */
+
+#player-stats{
+  text-align: center; 
+}
+
+#player-stats table {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px dotted black;
+}
+
+#player-stats table th {
+  border: 1px dotted black;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#player-stats table td {
+  border: 1px dotted black;
+  padding-right: 30px;
+  padding-left: 30px;
+}

@@ -1,0 +1,65 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+.racer_table td {
+  background-image: url(http://sr.photos3.fotosearch.com/bthumb/CSP/CSP992/k13056215.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+#player1_top_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player1_bottom_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player2_top_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player2_bottom_strip td:last-child {
+  background-image: url(http://l.rgbimg.com/cache1sV0gh/users/s/so/somadjinn/600/nErqe0w.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player1_top_strip td.active {
+  background-image: url(http://fc03.deviantart.net/fs71/f/2012/283/0/7/8_bit_sprites__toad__mario_kart__by_toshirofrog-d5hg79w.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player1_bottom_strip td.active {
+  background-image: url(http://fc03.deviantart.net/fs71/f/2012/283/0/7/8_bit_sprites__toad__mario_kart__by_toshirofrog-d5hg79w.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player2_top_strip td.active {
+  background-image: url(https://thepixelartproject.files.wordpress.com/2011/12/mario-kart_pa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#player2_bottom_strip td.active {
+  background-image: url(https://thepixelartproject.files.wordpress.com/2011/12/mario-kart_pa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
