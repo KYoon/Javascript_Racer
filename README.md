@@ -16,4 +16,4 @@ Then run shotgun in your command line:
 - Make it work for other browsers
 - Take out all Ruby implementation
 - Find another database to use
-- Refactor
+- REFACTOR O_o
